@@ -1,0 +1,74 @@
+body{
+    background-color: #0D0D0D;
+    color: #f9f6f6 !important;
+    overflow: hidden;
+}
+
+.nav-tab{
+    background-color: #0D0D0D;
+}
+
+.logo{
+    width: 40px;
+}
+
+i{
+    cursor: pointer;
+}
+
+li {
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+li:hover {
+    color: rgb(255, 255, 75);
+}
+
+input::placeholder {
+color: rgb(153, 153, 55) !important;
+}
+
+
+.fa-earth-africa:hover, .fa-seedling:hover {
+color: rgb(244, 244, 51);
+}
+
+.meal-layer{
+    width: 100%;
+    height: 100%;
+    background-color: #969191ca;
+    top: 100%;
+    transition: .5s;
+}
+
+.meal:hover .meal-layer{
+    top: 0;
+}
+
+.side-nav-menu{
+    z-index: 99;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.alert{
+    width: fit-content;
+}
+
+.loading-screen{
+    z-index: 999;
+    display: flex;
+}
+
+.inner-loading-screen{
+    position: absolute;
+    z-index: 9;
+    background-color: #0D0D0D;
+    display: flex;
+}
